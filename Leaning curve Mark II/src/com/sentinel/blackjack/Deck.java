@@ -1,3 +1,4 @@
+package com.sentinel.blackjack;
 import java.util.ArrayList;
 
 public class Deck {

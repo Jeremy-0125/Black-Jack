@@ -1,3 +1,4 @@
+package com.sentinel.blackjack;
 
 public class Cardclass {
 
