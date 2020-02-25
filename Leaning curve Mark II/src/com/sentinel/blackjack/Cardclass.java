@@ -1,7 +1,9 @@
 package com.sentinel.blackjack;
 
 public class Cardclass {
-
+	// static variable
+	private static final String SUIT = "Suit: ";
+	
 	// member variable, object definition
 	private int rank;
 	private String suit;
@@ -39,6 +41,6 @@ public class Cardclass {
 	}
 	
 	public String toString() {
-		return "Suit: " + this.suit + "  Rank: " + this.rank; 
+		return SUIT + this.suit + "  Rank: " + this.rank; 
 	}
 }
