@@ -126,15 +126,19 @@ public class Hand {
 
     public static void main(String[] args) {
 	Hand hand = new Hand();
-	hand.addCard(new Card( for (int randomCard = (int) (Math.random() * hand + 1));
-	    sb.append(hand.get(value));
-	}
+	// hand.addCard(new Card( for (int randomCard = (int) (Math.random() * hand +
+	// 1));
+	// sb.append(hand.get(value));
+	// }
 
-    // public static void main(String[] args) {
-    // Hand hand = new Hand();
-    // hand.addCard(new Card(14, 'c'));
-    // hand.addCard(new Card(13, 'c'));
+	// public static void main(String[] args) {
+	// Hand hand = new Hand();
+	// hand.addCard(new Card(14, 'c'));
+	// hand.addCard(new Card(13, 'c'));
 
-    System.out.println("Value: "+hand.getValue());System.out.println("Blackjack: "+hand.isBlackJack());System.out.println("Bust: "+hand.isBust());System.out.println(hand); // Ac
-																					    // Kc
-}}
+	// System.out.println("Value: "+hand.getValue());System.out.println("Blackjack:
+	// "+hand.isBlackJack());System.out.println("Bust:
+	// "+hand.isBust());System.out.println(hand); // Ac
+	// Kc
+    }
+}
