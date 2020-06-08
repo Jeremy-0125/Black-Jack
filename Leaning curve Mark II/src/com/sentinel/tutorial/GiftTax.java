@@ -10,34 +10,34 @@ public class GiftTax {
 	Scanner scanner = new Scanner(System.in);
 
 	System.out.println("Give points [0-100]");
-	int number = Integer.valueOf(scanner.nextLine());
+	double number = Integer.valueOf(scanner.nextLine());
 
 	if (number < 5000) {
 	    System.out.println("No Tax.");
 	} 
 	
 	else if (number <= 25000){
-	    ( 100 + (number - 5000)* 0.08)
+	   double ( 100 + (number - 5000)* 0.08)
 	    System.out.println("Tax: " + number);
 	}
 	
 	else if (number <= 55000) {
-	    ( 1700 + (number - 25000)* 0.1)
+	   double ( 1700 + (number - 25000)* 0.1)
 	    System.out.println("Tax: " + number);
 	} 
 	
 	else if (number <= 200000) {
-	    ( 4700 + (number - 55000)* 0.12)
+	  double( 4700 + (number - 55000)* 0.12)
 	    System.out.println("Tax: " + number);
 	} 
 	
 	else if (number <= 1000000) {	 
-	    ( 22100 + (number - 200000)* 0.15)
+	   double( 22100 + (number - 200000)* 0.15)
 	    System.out.println("Tax: " + number);
 	}
 	
 	else if (number >= 1000000) {
-	    ( 142100 + (number - 1000000)* 0.17)
+	   double( 142100 + (number - 1000000)* 0.17)
 	    System.out.println("Tax: " + number);
 	}
     }
