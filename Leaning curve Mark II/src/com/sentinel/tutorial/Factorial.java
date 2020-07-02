@@ -12,13 +12,13 @@ public class Factorial {
 	int command = Integer.valueOf(scanner.nextLine());
 
 	int number = 0;
-	int sum = 0;
+	int product = 1;
 
-	int start = 0;
+	int start = 1;
 	int end = command + 1;
 	for (int i = start; i < end; i++) {
 
-	    int product = i * sum;
+	    product = i * product;
 	}
 	System.out.println("The product is " + product);
 
